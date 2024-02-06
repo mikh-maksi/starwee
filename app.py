@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Привіт, світ! Це бекенд на Python і він працює!'
+    return 'Привіт, світ! Це бекенд на Python і він працює! Ось так! 2'
 
 @app.route('/add_user', methods=['POST'])
 def add_user():
